@@ -9,7 +9,7 @@ class Solution {
     public boolean isValid(String s) {
         while(true){
         if(s.contains("()")){
-            s.replace("()", "");
+            ss.replace("()", "");
         }
         else if(s.contains("{}")){
             s=s.replace("{}", "");
