@@ -13,8 +13,9 @@ class Solution {
             if(left==0){
                 left=1;
             }
-            left=left*nums
+            left=left*nums[i];
         }
+        
         
     }
 }
