@@ -22,7 +22,7 @@ class Solution {
         for(Map.Entry<Integer,String> e:m.entrySet()){
             while(num>=e.getKey()){
                 r+=e.getValue();
-                num-=e.
+                num-=e.getKey();
             }
 
         }
