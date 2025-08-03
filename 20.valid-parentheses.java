@@ -13,8 +13,9 @@ class Solution {
         }
         else if(s.contains("{}")){
             s.replace("{}", "");
-            
+
         }
+        
     }
         
     }
