@@ -16,7 +16,7 @@ class Solution {
 
         }
         else if(s.contains("[]")){
-            ss.replace("[]", "");
+            s=s.replace("[]", "");
         }
     }
         
