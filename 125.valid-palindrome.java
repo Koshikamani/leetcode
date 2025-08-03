@@ -10,7 +10,7 @@ class Solution {
         StringBuilder sb=new StringBuilder();
         StringBuilder sc=new StringBuilder();
         for(int i=0;i<s.length();i++){
-            if(s.charAt(i))
+            if(Cs.charAt(i))
         }        
     }
 }
