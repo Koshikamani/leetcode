@@ -11,7 +11,7 @@ import java.util.HashMap;
 class Solution {
     public String intToRoman(int num) {
         String r="";
-        HashMap<Integer,String> m=new HashMap<>();
+        TreeMap<Integer, String> map = new TreeMap<>(Collections.reverseOrder());
         m.put(1000,"M");
         m.put(900,"CM");
         m.put(500,"D");
