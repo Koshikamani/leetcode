@@ -12,8 +12,8 @@ class Solution {
         m.put(500,"M");
         m.put(100,"M");
         m.put(50,"M");
-        m.put(10,"M");
-        m.put(5,"M);
+        m.put(10,"X");
+        m.put(5,"V");
         m.put(1,"I");
 
         
