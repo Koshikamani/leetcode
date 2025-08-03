@@ -8,6 +8,7 @@
 
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.Map.Entry;
 import java.util.TreeMap;
 
 class Solution {
@@ -27,7 +28,7 @@ class Solution {
         m.put(5,"V");
         m.put(4,"IV");
         m.put(1,"I");
-        for(Map.Entry<Integer,String> e:m.entrySet()){
+        for(Entry<Integer, String> e:m.entrySet()){
             while(num>=e.getKey()){
                 r+=e.getValue();
                 num-=e.getKey();
