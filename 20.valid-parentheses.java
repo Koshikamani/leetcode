@@ -18,7 +18,7 @@ class Solution {
         else if(s.contains("[]")){
             s=s.replace("[]", "");
         }
-        return is
+        return isE
     }
         
     }
