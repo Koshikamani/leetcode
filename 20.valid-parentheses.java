@@ -12,7 +12,7 @@ class Solution {
             s.replace("()", "");
         }
         else if(s.contains("{}")){
-            s.
+            s.r
         }
     }
         
