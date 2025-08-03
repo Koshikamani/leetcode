@@ -7,6 +7,7 @@
 // @lc code=start
 class Solution {
     public int singleNumber(int[] nums) {
+        int a=0;
         
         
     }
