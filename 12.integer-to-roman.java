@@ -13,6 +13,7 @@ class Solution {
         String r="";
         HashMap<Integer,String> m=new HashMap<>();
         m.put(1000,"M");
+        m.put(900,"CM");
         m.put(500,"D");
         m.put(400,"CD");
         m.put(100,"C");
@@ -30,6 +31,7 @@ class Solution {
                 num-=e.getKey();
             }
 
+            
         }
 
         
