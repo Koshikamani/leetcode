@@ -19,7 +19,7 @@ class Solution {
                 sc.append(s.charAt(i));
             }
         }    
-        return sc.toString().equals(sc)  
+        return sc.toString().equals(sb.)  
     }
 }
 // @lc code=end
