@@ -19,7 +19,7 @@ class Solution {
             s=s.replace("[]", "");
         }
         if(s.isEmpty()){
-            r
+            return
         }
     }
         
