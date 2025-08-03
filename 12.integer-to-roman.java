@@ -10,7 +10,7 @@ import java.util.HashMap;
 
 class Solution {
     public String intToRoman(int num) {
-        String r=
+        String r="";
         HashMap<Integer,String> m=new HashMap<>();
         m.put(1000,"M");
         m.put(500,"D");
@@ -21,7 +21,7 @@ class Solution {
         m.put(1,"I");
         for(Map.Entry<Integer,String> e:m.entrySet()){
             while(num>=e.getValue()){
-                
+                r+=
             }
 
         }
