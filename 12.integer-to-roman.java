@@ -18,7 +18,7 @@ class Solution {
         m.put(50,"L");
         m.put(10,"X");
         m.put(5,"V");
-        m.put(4,)
+        m.put(4,"IV")
         m.put(1,"I");
         for(Map.Entry<Integer,String> e:m.entrySet()){
             while(num>=e.getKey()){
