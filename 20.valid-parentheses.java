@@ -15,7 +15,7 @@ class Solution {
             s.replace("{}", "");
 
         }
-        else if(s.contains("[]"))
+        else if(s.contains("[]")){}
     }
         
     }
