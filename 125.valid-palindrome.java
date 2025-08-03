@@ -15,7 +15,9 @@ class Solution {
             }
         }
         for(int i=s.length()-1;i>=0;i--){
-            if()
+            if(Character.isLetterOrDigit(s.charAt(i))){
+                
+            }
         }      
     }
 }
