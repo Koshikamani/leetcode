@@ -21,7 +21,6 @@ class Solution {
         else{
             break;
         }
-        
     }
     return s.isEmpty();
         
