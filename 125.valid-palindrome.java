@@ -18,7 +18,7 @@ class Solution {
             if(Character.isLetterOrDigit(s.charAt(i))){
                 sc.append(s.charAt(i));
             }
-        }    
+        }    t
         return sc.toString().equals(sb.)  
     }
 }
