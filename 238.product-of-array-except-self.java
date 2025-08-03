@@ -12,7 +12,7 @@ class Solution {
         left[0]=1;
         right[nums.length-1]=1;
         for(int i=0;i<nums.length;i++){
-            if(left==0){
+            if(left[i]==0){
                 left=1;
             }
             left=left*nums[i];
