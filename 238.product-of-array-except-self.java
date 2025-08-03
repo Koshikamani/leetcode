@@ -8,7 +8,8 @@
 class Solution {
     public int[] productExceptSelf(int[] nums) {
         int left=1;
-        int right
+        int right=1;
+        
         
     }
 }
