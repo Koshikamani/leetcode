@@ -8,7 +8,7 @@
 class Solution {
     public boolean isPalindrome(String s) {
         StringBuilder sb=new StringBuilder();
-        String        
+        StringBuilder sc        
     }
 }
 // @lc code=end
