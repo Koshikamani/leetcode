@@ -10,8 +10,8 @@ class Solution {
         Map<Integer,String> m=new HashMap<>();
         m.put(1000,"M");
         m.put(500,"M");
-        m.put(100,"M");
-        m.put(50,"");
+        m.put(100,"C");
+        m.put(50,"L");
         m.put(10,"X");
         m.put(5,"V");
         m.put(1,"I");
