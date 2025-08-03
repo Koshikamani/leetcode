@@ -5,9 +5,12 @@
  */
 
 // @lc code=start
+
+import java.util.HashMap;
+
 class Solution {
     public String intToRoman(int num) {
-        Map<Integer,String> m=new HashMap<>();
+        HashMapMap<Integer,String> m=new HashMap<>();
         m.put(1000,"M");
         m.put(500,"D");
         m.put(100,"C");
