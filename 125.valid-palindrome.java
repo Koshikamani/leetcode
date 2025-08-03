@@ -14,7 +14,7 @@ class Solution {
                 sb.append(s.charAt(i));
             }
         }
-               
+        for(int i=)       
     }
 }
 // @lc code=end
