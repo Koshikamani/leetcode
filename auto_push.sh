@@ -11,6 +11,6 @@ while true; do
   inotifywait -r -e modify,create,delete,move "$WATCH_DIR"
   
   git add .
-  git commit -m "💣 [0x01] AutoPush injected — $(date '+%Y-%m-%d %H:%M:%S')"
+  git commit -m "🤖 AutoPush v1.0 — Timestamp:$(date '+%Y-%m-%d %H:%M:%S')"
   git push origin "$BRANCH"
 done
