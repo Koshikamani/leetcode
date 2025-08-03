@@ -16,7 +16,9 @@ class Solution {
             left=left*nums[i];
         }
 
-        for(int i=nums.length-1;i>=0;i=
+        for(int i=nums.length-1;i>=0;i--){
+            
+        }
         
     }
 }
