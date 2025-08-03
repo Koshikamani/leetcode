@@ -7,7 +7,7 @@
 // @lc code=start
 class Solution {
     public boolean isPalindrome(String s) {
-        
+        String
         
     }
 }
