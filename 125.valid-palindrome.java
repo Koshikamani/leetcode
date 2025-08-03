@@ -9,7 +9,7 @@ class Solution {
     public boolean isPalindrome(String s) {
         StringBuilder sb=new StringBuilder();
         StringBuilder sc=new StringBuilder();
-        for(int i=0)        
+        for(int i=0;i<s)        
     }
 }
 // @lc code=end
