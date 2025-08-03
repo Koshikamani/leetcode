@@ -15,7 +15,7 @@ class Solution {
             s.replace("{}", "");
 
         }
-        else if(s)
+        else if(s.)
     }
         
     }
