@@ -13,7 +13,7 @@ class Solution {
         m.put(100,"M");
         m.put(50,"M");
         m.put(10,"M");
-        m.put(1000,"M");
+        m.put(,"M");
 
         
     }
