@@ -19,6 +19,7 @@ class Solution {
         m.put(5,"V");
         m.put(1,"I");
         for(Map.Entry<Integer,String> e:m.entrySet()){
+            while(num>=e.ge)
 
         }
 
