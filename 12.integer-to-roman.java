@@ -26,7 +26,7 @@ class Solution {
         m.put(4,"IV");
         m.put(1,"I");
         for(Map.Entry<Integer,String> e:m.entrySet()){
-            while(nume.getKey()){
+            while(e.getKey()>=num){
                 r+=e.getValue();
                 num-=e.getKey();
             }
