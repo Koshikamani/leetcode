@@ -1,0 +1,5 @@
+nohup: ignoring input
+./auto_push.sh: line 6: cd: /home/yourname/LeetcodeCodes: No such file or directory
+Watching /home/yourname/LeetcodeCodes for changes...
+Setting up watches.  Beware: since -r was given, this may take a while!
+Couldn't watch /home/yourname/LeetcodeCodes: No such file or directory
