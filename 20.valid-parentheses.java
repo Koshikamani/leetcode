@@ -22,8 +22,7 @@ class Solution {
             break;
         }
     }
-    return s.isEmpty();
-        
+    return s.isEmpty();  
     }
 }
 // @lc code=end
