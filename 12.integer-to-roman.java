@@ -18,7 +18,7 @@ class Solution {
         m.put(10,"X");
         m.put(5,"V");
         m.put(1,"I");
-        for(Map.)
+        for(Map.Entry<Integer,)
 
         while(num>=)
 
