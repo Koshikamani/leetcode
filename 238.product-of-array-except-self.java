@@ -7,7 +7,8 @@
 // @lc code=start
 class Solution {
     public int[] productExceptSelf(int[] nums) {
-        int left
+        int left=1;
+        
         
     }
 }
