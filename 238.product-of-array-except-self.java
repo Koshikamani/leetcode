@@ -9,7 +9,7 @@ class Solution {
     public int[] productExceptSelf(int[] nums) {
         int left=1;
         int right=1;
-        for(int i=0;i<)
+        for(int i=0;i<nums.length)
         
     }
 }
