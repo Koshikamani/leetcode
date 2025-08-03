@@ -11,7 +11,7 @@ class Solution {
         StringBuilder sc=new StringBuilder();
         for(int i=0;i<s.length();i++){
             if(Character.isLetterOrDigit(s.charAt(i))){
-                sb.append(s.charAt(i));
+                sb.append(Charatcter.tos.charAt(i));
             }
         }
         for(int i=s.length()-1;i>=0;i--){
