@@ -7,7 +7,9 @@
 // @lc code=start
 class Solution {
     public boolean isValid(String s) {
-        if(s.contains("()"))
+        if(s.contains("()")){
+            
+        }
         
     }
 }
