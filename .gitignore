@@ -1,1 +1,24 @@
+# Ignore log files
 *.log
+push.log
+
+# Ignore temporary files and backups
+*.tmp
+*.bak
+*~
+*.swp
+
+# Ignore environment and secret config files
+.env
+.env.*
+
+# Ignore compiled class files
+*.class
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore auto_push script output (if any)
+nohup.out
+
