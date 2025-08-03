@@ -1,6 +1,6 @@
 #!/bin/bash
 
-WATCH_DIR="/home/yourname/LeetcodeCodes"   # Change to your actual path
+WATCH_DIR="/home/user/.leetcode"   # Change to your actual path
 BRANCH="main"                              # Or 'master' if that's your branch
 
 cd "$WATCH_DIR"
