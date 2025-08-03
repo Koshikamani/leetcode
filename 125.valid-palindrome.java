@@ -16,7 +16,7 @@ class Solution {
         }
         for(int i=s.length()-1;i>=0;i--){
             if(Character.isLetterOrDigit(s.charAt(i))){
-                sc.append(Character.toLowerCase(c)s.charAt(i));
+                sc.append(Character.toLowerCase(c));
             }
         }  
         return sc.toString().equals(sb.toString()) ;
