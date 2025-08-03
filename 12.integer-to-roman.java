@@ -7,7 +7,8 @@
 // @lc code=start
 class Solution {
     public String intToRoman(int num) {
-        Map<Integer,String> m=new HashMap<
+        Map<Integer,String> m=new HashMap<>();
+
         
     }
 }
