@@ -11,7 +11,7 @@ class Solution {
         if(s.contains("()")){
             s.replace("()", "");
         }
-        else if(s.contains(s))
+        else if(s.contains("{}"))
     }
         
     }
