@@ -13,7 +13,8 @@ class Solution {
             if(Character.isLetterOrDigit(s.charAt(i))){
                 sb.append(s.charAt(i));
             }
-        }        
+        }
+               
     }
 }
 // @lc code=end
