@@ -19,7 +19,7 @@ class Solution {
             s=s.replace("[]", "");
         }
         else{
-            break
+            break;
         }
         
     }
