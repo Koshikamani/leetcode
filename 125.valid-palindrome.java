@@ -19,7 +19,7 @@ class Solution {
                 sc.append(s.charAt(i));
             }
         }    
-        return   
+        return sc.toString()  
     }
 }
 // @lc code=end
