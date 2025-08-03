@@ -9,7 +9,11 @@ class Solution {
     public String intToRoman(int num) {
         Map<Integer,String> m=new HashMap<>();
         m.put(1000,"M");
-        
+        m.put(500,"M");
+        m.put(1000,"M");
+        m.put(1000,"M");
+        m.put(1000,"M");
+        m.put(1000,"M");
 
         
     }
