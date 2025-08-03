@@ -15,7 +15,7 @@ class Solution {
             s.replace("{}", "");
 
         }
-        el
+        els
     }
         
     }
