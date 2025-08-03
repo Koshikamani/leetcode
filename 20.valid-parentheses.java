@@ -12,7 +12,7 @@ class Solution {
             s.replace("()", "");
         }
         else if(s.contains("{}")){
-            ss.replace("{}", "");
+            s=s.replace("{}", "");
 
         }
         else if(s.contains("[]")){
