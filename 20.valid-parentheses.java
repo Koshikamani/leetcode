@@ -10,8 +10,8 @@ class Solution {
         while(true){
         if(s.contains("()")){
             s.replace("()", "");
-
         }
+        e
     }
         
     }
