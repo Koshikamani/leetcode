@@ -31,11 +31,9 @@ class Solution {
                 num-=e.getKey();
             }
 
-            
+
         }
-
-        
-
+        return r
         
     }
 }
