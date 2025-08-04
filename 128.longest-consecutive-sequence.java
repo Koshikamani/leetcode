@@ -15,13 +15,16 @@ class Solution {
          int curmax=1;
         for(int i=1;i<nums.length;i++){
            
-            if(nums[i]==nums[i-1]+1/*||nums[i]==nums[i-1]*/){
+            if(nums[i]==nums[i-1]+1/*||*/){
                 curmax++;
                 longest=Math.max(curmax,longest);
             }
-            else if() {
-                curmax=1;
+            else if(nums[i]==nums[i-1]) {
+                continue;
                 
+            }
+            else {
+                curmax=1;
             }
         }
         return longest;
