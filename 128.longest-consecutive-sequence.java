@@ -21,6 +21,7 @@ class Solution {
             }
             else {
                 curmax=1;
+                
             }
         }
         return longest;
