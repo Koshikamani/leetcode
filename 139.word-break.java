@@ -27,7 +27,7 @@ class Solution {
             }
 
         }
-        return t[idx]=
+        return t[idx]=false;
     }
 }
 // @lc code=end
