@@ -28,6 +28,30 @@ class Solution {
         //     }
         // }
         // return longest;
+
+
+        //optimal
+        Set<Integer> set = new HashSet<>();
+        for (int num : nums) set.add(num);
+
+        int longest = 0;
+
+        for (int num : set) {
+            // Only start sequence from beginning
+            if (!set.contains(num - 1)) {
+                int currentNum = num;
+                int count = 1;
+
+                while (set.contains(currentNum + 1)) {
+                    currentNum++;
+                    count++;
+                }
+
+                longest = Math.max(longest, count);
+            }
+        }
+
+        return longest;
         
     }
 }
