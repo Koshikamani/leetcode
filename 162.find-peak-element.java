@@ -21,5 +21,17 @@ class Solution {
         return low; 
     }
 }
+
+/*🧠 Logic Behind Binary Search Decision:
+
+    If nums[mid] > nums[mid + 1]: peak is left, possibly at mid.
+
+    If nums[mid] < nums[mid + 1]: peak is right, definitely after mid.
+
+This works because:
+
+    If you're in an increasing slope, peak lies to the right.
+
+    If you're in a decreasing slope, peak lies to the left or is the mid itself. */
 // @lc code=end
 
