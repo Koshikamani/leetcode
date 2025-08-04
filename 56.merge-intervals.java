@@ -25,7 +25,6 @@ class Solution {
             res[i][0]=l.get(i).get(0);
             res[i][1]=l.get(i).get(1);
         }
-
         return res;  
     }
 }
