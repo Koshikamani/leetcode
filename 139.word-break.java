@@ -13,7 +13,15 @@ class Solution {
             t=new Boolean[s.length()];
             return solve(s,0,wordDict);
     }
-    private boolean solve(String s,int idx,Lis)
+    private boolean solve(String s,int idx,List<String> wordDict){
+        if(idx==n){
+            return true;
+        }
+        if(t[idx]!=null){
+            return t[idx];
+        }
+        for(int )
+    }
 }
 // @lc code=end
 
