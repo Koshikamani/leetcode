@@ -20,7 +20,10 @@ class Solution {
         if(t[idx]!=null){
             return t[idx];
         }
-        for(int )
+        for(int endidx=idx+1;endidx<=n;endidx++){
+            String split=s.substring(idx,endidx);
+            if(wordDict.contains(split))
+        }
     }
 }
 // @lc code=end
