@@ -10,10 +10,16 @@ class Solution {
         Arrays.sort(nums);
         int longest=1;
         for(int i=1;i<nums.length;i++){
+            int curmax=1;
             if(nums[i]==nums[i-1]+1){
-                longest=Math.max
+                curmax++;
+                longest=Math.max(curmax,longest);
+            }
+            else{
+                longest=1;
             }
         }
+        return longest;
         
     }
 }
