@@ -12,6 +12,6 @@ while true; do
     echo "⏳ Nothing to commit at $(date)" >> auto_push.log
   fi
 
-  sleep 60
+  sleep 20
 done
 
