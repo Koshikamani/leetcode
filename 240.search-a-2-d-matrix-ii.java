@@ -46,7 +46,6 @@ class Solution {
         }
 
         return false;
-        
     }
     // private boolean bs(int[][] matrix,int target){
     //     for(int i=0;i<matrix.length;i++){
