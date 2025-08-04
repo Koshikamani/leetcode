@@ -12,7 +12,16 @@ class Solution {
     }
 
     private int findcol(int[][] matrix,int target){
-        int low=0;high=matrix.length;
+        for(int i=0;i<matrix.length;i++){
+            int low=0;high=matrix.length-1;
+            while(low<=high){
+                if(matrix[i][mid]==target){
+                    ret
+                }
+            }
+
+        }
+        
     }
 }
 // @lc code=end
