@@ -15,8 +15,16 @@ class Solution {
         for(int i=0;i<matrix.length;i++){
             int low=0;high=matrix.length-1;
             while(low<=high){
+                int mid=low+(high-low)/2;
                 if(matrix[i][mid]==target){
-                    ret
+                    return true;
+
+                }
+                else if(matrix[i][mid]<target){
+                    low=mid+1;
+                }
+                else{
+                    high=mid-1;
                 }
             }
 
