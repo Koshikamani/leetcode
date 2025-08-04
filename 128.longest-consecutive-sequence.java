@@ -16,7 +16,7 @@ class Solution {
                 longest=Math.max(curmax,longest);
             }
             else{
-                longest=1;
+                curmax=1;
             }
         }
         return longest;
