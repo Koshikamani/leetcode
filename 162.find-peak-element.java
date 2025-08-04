@@ -12,14 +12,13 @@ class Solution {
         while(low<high){
             int mid=low+(high-low)/2;
             if(nums[mid]>nums[mid+1]){
-                high=mid;
+                high=mid;//
             }
             else{
                 low=mid+1;
             }
         }
-        return low;
-        
+        return low; 
     }
 }
 // @lc code=end
