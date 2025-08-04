@@ -22,8 +22,12 @@ class Solution {
         }
         for(int endidx=idx+1;endidx<=n;endidx++){
             String split=s.substring(idx,endidx);
-            if(wordDict.contains(split))
+            if(wordDict.contains(split) && solve(s,endidx,wordDict)){
+                return t[idx]=true;
+            }
+
         }
+        return t[idx]=
     }
 }
 // @lc code=end
