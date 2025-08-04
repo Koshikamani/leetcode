@@ -7,7 +7,7 @@
 // @lc code=start
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        int x=findcol(matrix,target);
+        return bs(matrix,target);
         
     }
 
