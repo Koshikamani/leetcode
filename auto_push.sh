@@ -1,16 +1,17 @@
 #!/bin/bash
 
-WATCH_DIR="/home/user/.leetcode"  
-BRANCH="main"                             
-
-cd "$WATCH_DIR"
-
-echo "Watching $WATCH_DIR for changes..."
-
 while true; do
-  inotifywait -r -e modify,create,delete,move "$WATCH_DIR"
-  
+  cd /home/user/.leetcode || exit
   git add .
-  git commit -m "🤖 AutoPush v1.0 — Timestamp:$(date '+%Y-%m-%d %H:%M:%S')"
-  git push origin "$BRANCH"
+
+  if ! git diff --cached --quiet; then
+    git commit -m "🤖 AutoPush v1.0 — Timestamp:$(date '+%Y-%m-%d %H:%M:%S')"
+    git push origin main
+    echo "✅ Pushed at $(date)" >> auto_push.log
+  else
+    echo "⏳ Nothing to commit at $(date)" >> auto_push.log
+  fi
+
+  sleep 60
 done
+
