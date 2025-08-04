@@ -3,7 +3,6 @@
  *
  * [435] Non-overlapping Intervals
  */
-
 // @lc code=start
 class Solution {
     public int eraseOverlapIntervals(int[][] intervals) {
