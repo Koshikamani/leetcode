@@ -26,8 +26,7 @@ class Solution {
             res[i][1]=l.get(i).get(1);
         }
 
-        return res;
-        
+        return res;  
     }
 }
 // @lc code=end
