@@ -13,7 +13,7 @@ class Solution {
 
     private boolean bs(int[][] matrix,int target){
         for(int i=0;i<matrix.length;i++){
-            int low=0;int high=matrix.length-1;
+            int low=0;int high=matrix[i].length-1;
             while(low<=high){
                 int mid=low+(high-low)/2;
                 if(matrix[i][mid]==target){
