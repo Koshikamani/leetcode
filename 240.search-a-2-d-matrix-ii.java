@@ -7,8 +7,12 @@
 // @lc code=start
 class Solution {
     public boolean searchMatrix(int[][] matrix, int target) {
-        int x=findcol(matrix,a)
+        int x=findcol(matrix,target);
         
+    }
+
+    private int findcol(int[][] matrix,int target){
+        int low=0;high=matrix.length;
     }
 }
 // @lc code=end
