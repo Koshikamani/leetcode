@@ -11,7 +11,7 @@ class Solution {
         for(char ch:s.toCharArray()){
             m.put(ch,m.getOrDefault(ch,0)+1);
         }
-        for(char ch:s.toCharArray()){
+        for(int i=0;i<s.length){
             if(m.get(ch)==1){
                 return ;
             }
