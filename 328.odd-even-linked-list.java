@@ -17,6 +17,34 @@
  */
 class Solution {
     public ListNode oddEvenList(ListNode head) {
+        //naive 
+        ArrayList<Integer> l=new ArrayList<>();
+        ListNode temp=head;
+        if(head==null||head.next==null){
+            return head;
+        }
+        while(temp!=null && temp.next!=null){
+            l.add(temp.val);
+            temp=temp.next.next;
+        }
+        if(temp!=null){
+            l.add(temp.val);
+        }
+        temp=head.next;
+         while(temp!=null && temp.next!=null){
+            l.add(temp.val);
+            temp=temp.next.next;
+        }
+        if(temp!=null){
+            l.add(temp.val);
+        }
+        temp=head;
+        for(int i=0;i<l.size();i++){
+            temp.val=l.get(i);
+            temp=temp.next;
+        }
+        return head;
+        
         
     }
 }
