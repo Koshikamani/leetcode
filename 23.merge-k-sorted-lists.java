@@ -23,7 +23,7 @@ class Solution {
     public ListNode mergeKLists(ListNode[] lists) {
         ListNode dummy=new ListNode(0);
         ListNode cur=dummy;
-        PriorityQueue<ListNode> pq=new PriorityQueue<>(Comparator.comparing(n->n.val));
+        PriorityQueue<ListNode> pq=new PriorityQueue<>(Comparator.comparingInt(n->n.val));
         for(ListNode h:lists){
             if(h!=null){
                 pq.add(h);
