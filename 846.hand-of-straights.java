@@ -17,7 +17,7 @@ class Solution {
         while(!pq.isEmpty()){
             int first=pq.peek();
             for(int i=0;i<groupSize;i++){
-                int need=first+i;
+                int need=first+i;//remove is used to remove from any where in pq unlike poll which only removes smallest element in this case
                 if(!pq.remove(need)){//if the number we need(consecutive number) is not there in pq then return false
                     return false;
                 }
